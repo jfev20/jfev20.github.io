@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import styles from './Entry.css';
+import styles from './entry.module.css';
 
 export default function EntryFormat({
 	company,
@@ -14,7 +14,7 @@ export default function EntryFormat({
 }) {
 	return (
 		<div className={styles.entry}>
-			<div className=''>
+			<div className='flex flex-row gap-2 items-center'>
 				<h3>
 					{company} | {title}
 				</h3>

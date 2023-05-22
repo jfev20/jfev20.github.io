@@ -1,19 +1,20 @@
 import EntryFormat from './EntryFormat';
 import Link from 'next/link';
+import styles from './entry.module.css';
 
 export default function Projects() {
 	return (
 		<EntryFormat company='University of Glasgow' title='Student' date='2017-2022'>
 			<p>
-				Notable projects undertaken by myself and development groups I have worked with.
+				Notable projects undertaken by myself and development teams I have worked with.
 			</p>
 
 			<ul>
 				<li>
-					<div className=''>
-						<div className=''>
+					<div className='inline-flex flex-col gap-1'>
+						<div className='flex flex-row items-center gap-2'>
 							<h4>
-								<Link href=''>
+								<Link href='https://github.com/jfev20/Level-4-Project-Dissertation'>
 									Context Relevant Anti-Phishing Training Scheme
 								</Link>
 							</h4>
@@ -25,10 +26,10 @@ export default function Projects() {
 				</li>
 
 				<li>
-					<div className=''>
-						<div className=''>
+					<div className='inline-flex flex-col gap-1'>
+						<div className='flex flex-row items-center gap-2'>
 							<h4>
-								<Link href=''>
+								<Link href='https://github.com/CamMap/CamMapCesium'>
 									Integrated Mapping Software for 2D and 3D Land Sensor
 								</Link>
 							</h4>

@@ -1,0 +1,19 @@
+.entry {
+	@apply flex flex-col gap-4;
+}
+
+.entry > p {
+	@apply italic;
+}
+
+.entry ul {
+	@apply list-disc;
+	
+}
+.entry ul > li {
+	@apply mb-4;
+}
+
+.entry h3 {
+	@apply m-0;
+}
